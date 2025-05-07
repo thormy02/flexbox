@@ -1,0 +1,29 @@
+.caja {
+    border: 3px solid black;
+    height: 100px;
+    background-color: rgb(193, 158, 226);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+.abajo{
+    margin-right: auto;
+}
+body {
+    min-height: 800px;
+    margin: 10px;
+    height: 100%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 1;
+    align-items: center;
+    gap: 20px;
+}
+@media(max-width:600px){
+    body{
+        flex-wrap: wrap;
+    }
+}
